@@ -1,0 +1,23 @@
+{
+    "name": "agilesdesign/myrtle-core-dock-permissions",
+    "description": "Core Permissions Dock for Myrtle WMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Seliga",
+            "email": "jseliga@agilesdesign.com"
+        }
+    ],
+    "require": {
+        "agilesdesign/myrtle-core-dock-docks": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/database",
+            "src/Myrtle/Core/Docks"
+        ],
+        "psr-4": {
+            "Myrtle\\Core\\Permissions\\": "src/Permissions"
+        }
+    }
+}
