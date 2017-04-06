@@ -1,0 +1,102 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ac27101d81d337d43f3a32d6ad593d09",
+    "packages": [
+        {
+            "name": "agilesdesign/flasher",
+            "version": "v1.0.0-alpha.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/flasher.git",
+                "reference": "5bf8c04d0a2df55177d3f81983982d5999b9f5b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/flasher/zipball/5bf8c04d0a2df55177d3f81983982d5999b9f5b8",
+                "reference": "5bf8c04d0a2df55177d3f81983982d5999b9f5b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Flasher\\": "src/Flasher"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Flash messaging library for Laravel",
+            "time": "2016-11-22T01:54:51+00:00"
+        },
+        {
+            "name": "agilesdesign/myrtle-core-dock-docks",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/myrtle-core-dock-docks.git",
+                "reference": "919145f8f2029273e0bc4c00893bb8dabc802439"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-docks/zipball/919145f8f2029273e0bc4c00893bb8dabc802439",
+                "reference": "919145f8f2029273e0bc4c00893bb8dabc802439",
+                "shasum": ""
+            },
+            "require": {
+                "agilesdesign/flasher": "1.0.0-alpha.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/database",
+                    "src/Myrtle/Core/Docks"
+                ],
+                "psr-4": {
+                    "Myrtle\\Core\\Docks\\": "src/Docks"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Dock System for Myrtle WMS",
+            "support": {
+                "source": "https://github.com/agilesdesign/myrtle-core-dock-docks/tree/master",
+                "issues": "https://github.com/agilesdesign/myrtle-core-dock-docks/issues"
+            },
+            "time": "2017-04-06 16:10:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "agilesdesign/myrtle-core-dock-docks": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

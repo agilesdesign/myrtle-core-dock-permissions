@@ -2,11 +2,15 @@
     "name": "agilesdesign/myrtle-core-dock-permissions",
     "description": "Core Permissions Dock for Myrtle WMS",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Justin Seliga",
             "email": "jseliga@agilesdesign.com"
         }
+    ],
+    "repositories" : [
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-docks.git"}
     ],
     "require": {
         "agilesdesign/myrtle-core-dock-docks": "dev-master"
