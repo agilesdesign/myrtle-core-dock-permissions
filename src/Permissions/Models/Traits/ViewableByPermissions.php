@@ -3,7 +3,7 @@
 namespace Myrtle\Core\Permissions\Models\Traits;
 
 
-use Myrtle\Permissions\Models\Scopes\ViewableByPermissionsScope;
+use Myrtle\Core\Permissions\Models\Scopes\ViewableByPermissionsScope;
 
 trait ViewableByPermissions {
 

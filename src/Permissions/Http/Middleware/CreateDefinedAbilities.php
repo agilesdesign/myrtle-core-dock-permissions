@@ -5,8 +5,7 @@ namespace Myrtle\Core\Permissions\Http\Middleware;
 use Closure;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Schema;
-use Myrtle\Permissions\Models\Ability;
-use Myrtle\Permissions\Models\Traits\DefinesAbilities;
+use Myrtle\Core\Permissions\Models\Traits\DefinesAbilities;
 
 class CreateDefinedAbilities
 {

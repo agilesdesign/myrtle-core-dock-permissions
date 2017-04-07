@@ -3,7 +3,7 @@
 namespace Myrtle\Core\Permissions\Models\Traits;
 
 use Illuminate\Support\Arr;
-use Myrtle\Permissions\Models\Ability;
+use Myrtle\Core\Permissions\Models\Ability;
 
 trait DefinesAbilities
 {

@@ -3,7 +3,7 @@
 namespace Myrtle\Core\Permissions\Models\Traits;
 
 
-use Myrtle\Permissions\Models\Ability;
+use Myrtle\Core\Permissions\Models\Ability;
 use App\Models\Permission;
 
 trait Permissionable

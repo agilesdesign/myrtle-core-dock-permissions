@@ -4,7 +4,7 @@ namespace Myrtle\Core\Permissions\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Myrtle\Permissions\Http\Middleware\CreateDefinedAbilities;
+use Myrtle\Core\Permissions\Http\Middleware\CreateDefinedAbilities;
 
 class PermissionsServiceProvider extends ServiceProvider
 {
