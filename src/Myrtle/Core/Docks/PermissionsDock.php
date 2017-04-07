@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Docks;
 
-use Myrtle\Permissions\Providers\PermissionsServiceProvider;
+use Myrtle\Core\Permissions\Providers\PermissionsServiceProvider;
 
 class PermissionsDock extends Dock
 {
